@@ -1,0 +1,74 @@
+body {
+    background-color: #151514;
+}
+
+img {
+    border-radius: 50%;
+}
+
+.Mainbox {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Mainbox .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F1F1F;
+    height: 25rem;
+    width: 15rem;
+    border-radius: 2%;
+    font-size: small;
+    margin: 10%;
+
+}
+
+.name {
+    color: white;
+    font-weight: bolder;
+    font-size: medium;
+    margin-top: 5px;
+}
+
+.location {
+    color: #C4DF79;
+    font-size: small;
+}
+
+.info {
+    font-size: smaller;
+    color: white;
+    margin-top: 15px;
+}
+
+.Mainbox .card .social {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    width: 80%;
+}
+
+.Mainbox .card .social .links {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: #323332;
+    margin-top: 10px;
+    color: white;
+    border-radius: 2.5%;
+    height: 30px;
+    
+    
+}
+
+a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
